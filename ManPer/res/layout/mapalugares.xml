@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar" >
+    </com.markupartist.android.widget.ActionBar>
+        <com.google.android.maps.MapView
+        android:id="@+id/mapa2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:apiKey="0NynnNOZ90wNOb2psizPYnGZX3pp6tzgmye_eCQ"
+        android:clickable="true"
+        android:scrollbarAlwaysDrawVerticalTrack="false" >
+    </com.google.android.maps.MapView>
+    
+
+</LinearLayout>
